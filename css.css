@@ -1,0 +1,40 @@
+#out {
+    background-color: black;
+    width: 393px;
+    height: 50px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+
+
+#container {
+    position: relative;
+    left: 500px;
+    top: 100px;
+
+}
+
+.btns {
+    width: 97px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: #a2def2;
+}
+
+
+#equal {
+    background-color: #08c245;
+    color: aliceblue;
+    width: 400px;
+}
+
+#clear {
+
+    background-color: red;
+    color: aliceblue;
+
+}

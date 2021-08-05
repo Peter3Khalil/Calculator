@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Peter</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="screen">
+            <input id="out" type="text">
+        </div>
+        <div id="row1">
+            <input id="one" type="button" value="1" class="btns" onclick="showNumber('1');">
+            <input id="two" type="button" value="2" class="btns" onclick="showNumber('2');">
+            <input id="three" type="button" value="3" class="btns" onclick="showNumber('3');">
+            <input id="divi" type="button" value="/" class="btns" onclick="showNumber('/');">
+        </div>
+
+        <div id="row2">
+            <input id="four" type="button" value="4" class="btns" onclick="showNumber('4');">
+            <input id="five" type="button" value="5" class="btns" onclick="showNumber('5');">
+            <input id="six" type="button" value="6" class="btns" onclick="showNumber('6');">
+            <input id="minus" type="button" value="-" class="btns" onclick="showNumber('-');">
+        </div>
+        <div id="row3">
+            <input id="seven" type="button" value="7" class="btns" onclick="showNumber('7');">
+            <input id="eight" type="button" value="8" class="btns" onclick="showNumber('8');">
+            <input id="nine" type="button" value="9" class="btns" onclick="showNumber('9');">
+            <input id="plus" type="button" value="+" class="btns" onclick="showNumber('+');">
+        </div>
+
+        <div id="row4">
+            <input id="clear" type="button" value="Clear" class="btns" onclick="clr();">
+
+            <input id="dot" type="button" value="." class="btns" onclick="showNumber('.');">
+            <input id="zero" type="button" value="0" class="btns" onclick="showNumber('0');">
+            <input id="multi" type="button" value="x" class="btns" onclick="showNumber('*');">
+            <br>
+            <input id="equal" type="button" value="=" class="btns" onclick="sol();">
+
+
+        </div>
+
+    </div>
+
+
+    <!--
+    <input id="get" type="text">
+    <button type="button" id="btn" onclick="sol();">click here
+    <button type="button" id="clr" onclick="clr();">click here
+    <p id="out"></p>
+-->
+    <script src="script.js"></script>
+</body>
+
+</html>
